@@ -62,11 +62,12 @@ function ContactForm() {
           <input type="hidden" name="bot-field" />
 
           <div className="form">
-            <label>
+            <label htmlFor="name">
                 <span className="label">~お名前~</span><br/>
                 <input 
                 type="text" 
                 name="name" 
+                id="name"
                 className="text"
                 onChange={handleChange}
                 value={formState.name}
@@ -74,11 +75,12 @@ function ContactForm() {
             </label>
           </div>
           <div className="form">
-            <label>
+            <label htmlFor="email">
                 <span className="label">~メールアドレス~</span><br/>
                 <input
                 type="email" 
                 name="email" 
+                id="email"
                 className="text"
                 onChange={handleChange}
                 value={formState.email}
@@ -86,10 +88,11 @@ function ContactForm() {
             </label>
           </div>
           <div className="form">
-            <label>
+            <label htmlFor="message">
                 <span className="label">~メッセージ~</span><br/>
                 <textarea 
                 name="message" 
+                id="message"
                 className="textbox"
                 value={formState.message}
                 onChange={handleChange}
