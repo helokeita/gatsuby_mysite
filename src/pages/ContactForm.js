@@ -4,38 +4,6 @@ import icon from "../../static/twitter.png"
 
 
 function ContactForm() {
-    const [formState, setFormState] = useState({
-      name: '',
-      email: '',
-      message: '',
-    });
-  
-    const encode = (data) => {
-      return Object.keys(data)
-        .map(
-          (key) => encodeURIComponent(key) + '=' + encodeURIComponent(data[key])
-        )
-        .join('&amp;');
-    };
-  
-    const handleChange = (e) => {
-      setFormState({
-        ...formState,
-        [e.target.name]: e.target.value,
-      });
-    };
-  
-    const handleSubmit = (e) => {
-      fetch('/contact', {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
-        body: encode({ 'form-name': 'contact', ...formState }),
-      })
-        .then(() => alert('メールを送信しました。'))
-        .catch((error) => alert(error));
-  
-      e.preventDefault();
-    };
 
     return(
         <div className="contact">
@@ -52,7 +20,6 @@ function ContactForm() {
 
         
         <form 
-        onSubmit={handleSubmit}
         name="contact" 
         method="post" 
         data-netlify="true"
@@ -69,8 +36,6 @@ function ContactForm() {
                 name="name" 
                 id="name"
                 className="text"
-                onChange={handleChange}
-                value={formState.name}
                 />
             </label>
           </div>
@@ -82,8 +47,6 @@ function ContactForm() {
                 name="email" 
                 id="email"
                 className="text"
-                onChange={handleChange}
-                value={formState.email}
                 />
             </label>
           </div>
@@ -94,8 +57,6 @@ function ContactForm() {
                 name="message" 
                 id="message"
                 className="textbox"
-                value={formState.message}
-                onChange={handleChange}
                 />
             </label>
           </div>
