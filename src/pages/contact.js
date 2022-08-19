@@ -21,27 +21,27 @@ export default function japan(){
           
           <form 
           name="contact" 
-          method="POST" 
+          method="post" 
           data-netlify="true"
           data-netlify-honeypot="bot-field"
           >
             <input type="hidden" name="form-name" value="contact" />
             <input type="hidden" name="bot-field" />
-            <p className="form">
-              <label className="label">~お名前~</label><br/>
-                <input type="text" name="name" className="text"/>
-            </p>
-            <p className="form">
-              <label className="label">~メールアドレス~</label><br/>
-              <input type="email" name="email" className="text"/>
-            </p>
-            <p className="form">
-              <label className="label">~メッセージ~</label><br/>
-              <textarea name="message" className="textbox"/>
-            </p>
-            <p className="button">
+            <div className="form">
+              <label><span className="label">~お名前~</span><br/>
+                <input type="text" name="name" className="text"/></label>
+            </div>
+            <div className="form">
+              <label><span className="label">~メールアドレス~</span><br/>
+              <input type="email" name="email" className="text"/></label>
+            </div>
+            <div className="form">
+              <label><span className="label">~メッセージ~</span><br/>
+              <textarea name="message" className="textbox"/></label>
+            </div>
+            <div className="button">
               <button type="submit" className="btn">送信</button>
-            </p>
+            </div>
 
           </form>
 
