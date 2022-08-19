@@ -9,7 +9,5 @@ module.exports = {
     title:"my gatsby site",
     description:"hello gatsby",
   },
-  plugins: [
-   
-  ],
+  plugins: [`gatsby-plugin-netlify`]
 }
