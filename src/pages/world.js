@@ -4,10 +4,10 @@ import  "./world.css"
 import p1 from "../../static/c1.jpg"
 import p2 from "../../static/c2.jpg"
 
-export default function japan(){
+export default function world(){
     return (
         <Layout>
-            <div className="japan">
+            <div className="world">
             <h1 className="title">行ったことのある国</h1>
           <h2>タイ王国</h2>
           <div className="picture">

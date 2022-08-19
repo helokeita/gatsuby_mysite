@@ -1,8 +1,8 @@
-.japan{
+.world{
     background: #fff;
     padding-top: 20px;
 }
-.japan>h2{
+.world>h2{
     font-size: 30px;
     text-align: center;
     padding: 10px;
@@ -10,13 +10,13 @@
     margin-left: 200px;
     border-bottom: medium solid #ff8800;
 }
-.japan>p{
+.world>p{
     font-size: 15px;
     text-align: center;
-    
-    margin-top: 10px;
+    padding-bottom: 50px;
+    padding-top: 30px;
 }
-.japan>.title{
+.world>.title{
     position: relative;
     padding: 1.5rem 2rem;
     border: 3px solid #d8d8d8;
