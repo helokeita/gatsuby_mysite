@@ -1,0 +1,31 @@
+.japan{
+    background: #fff;
+    padding-top: 20px;
+}
+.japan>h2{
+    font-size: 30px;
+    text-align: center;
+    padding: 10px;
+    margin-right: 200px;
+    margin-left: 200px;
+    border-bottom: medium solid #ff8800;
+}
+.japan>p{
+    font-size: 15px;
+    text-align: center;
+    
+    margin-top: 10px;
+}
+.japan>.title{
+    position: relative;
+    padding: 1.5rem 2rem;
+    border: 3px solid #d8d8d8;
+    border-radius: 10px;
+    background: #f9f9f9;
+    text-align: center;
+    font-size: 30px;
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+}

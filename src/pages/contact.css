@@ -1,0 +1,84 @@
+.contact{
+    background: #EFEFEF;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.contact>h1{
+    position: relative;
+    padding: 1.5rem 2rem;
+    border: 3px solid #d8d8d8;
+    border-radius: 10px;
+    background: #f9f9f9;
+    text-align: center;
+    font-size: 30px;
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+
+}
+.form{
+    text-align: center;
+    margin-bottom: 20px;
+    
+}
+
+.button{
+    text-align: center;
+
+}
+
+.btn{
+    display: inline-block;
+    max-width: 180px;
+    text-align: left;
+    background-color: #9eb5f3;
+    font-size: 16px;
+    color: #FFF;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 8px 40px 8px 40px;
+    border-radius: 4px;
+    position: relative;
+    outline: none;
+
+}
+.text{
+    width: 400px;
+    padding: 10px 15px;
+    font-style: 16px;
+    border-radius: 10px;
+}
+.textbox{
+    width: 400px;
+    height: 300px;
+    padding: 10px 15px;
+    font-style: 16px;
+    border-radius: 10px;
+}
+.label{
+    margin: 8em 0;
+  padding: 0.2em ;
+  font-size: 1.4em;
+  background: #e65c5c;
+  font-weight: bold;
+  color: #fff;
+
+}
+.img{
+    width: 70px;
+    margin-left: 50px;
+    
+}
+
+.sns{
+    display: flex;
+    width: 500px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 40px; 
+}
+.sns>p{
+    font-size: 20px;
+    padding-top: 10px;
+}

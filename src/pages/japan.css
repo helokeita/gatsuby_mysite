@@ -1,0 +1,38 @@
+.japan{
+    background: #fff;
+    padding-top: 20px;
+}
+.japan>h2{
+    font-size: 30px;
+    text-align: center;
+    padding: 10px;
+    margin-right: 200px;
+    margin-left: 200px;
+    border-bottom: medium solid #ff00ff;
+}
+.japan>p{
+    font-size: 15px;
+    text-align: center;
+    padding-bottom: 50px;
+    padding-top: 30px;
+}
+.japan>.title{
+    position: relative;
+    padding: 1.5rem 2rem;
+    border: 3px solid #d8d8d8;
+    border-radius: 10px;
+    background: #f9f9f9;
+    text-align: center;
+    font-size: 30px;
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+}
+.picture{
+    margin-top: 10px;
+    text-align: center;
+}
+.pic{
+    width: 500px;
+}

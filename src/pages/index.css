@@ -1,0 +1,10 @@
+html{
+    background: -moz-linear-gradient(top, rgb(80, 211, 235), #4172dd 30%, #74b8f8 60%, #f6f6f8);
+    background: -webkit-linear-gradient(top, rgb(80, 211, 235), #4172dd 30%, #74b8f8 60%, #f6f6f8);
+  background: linear-gradient(to bottom, rgb(80, 211, 235), #4172dd 30%, #74b8f8 60%, #f6f6f8);
+}
+
+.main{
+    max-width: 960px;
+    margin-bottom: 0px;
+}

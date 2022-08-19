@@ -1,0 +1,38 @@
+.top{
+    background-image: url("../../static/header.jpg");
+    height: 40vh;
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position:center;
+}
+
+.logo-image{
+    width: 250px;
+    margin-left: 100px;
+    margin-top: 150px;
+}
+
+.headervar{
+    margin-top: 30px;
+}
+
+.link{
+    display: flex;
+    justify-content: space-between;
+    
+    padding: 1.5em 2.5em;
+    color: #474747;
+    background: whitesmoke;/*背景色*/
+    border-left: double 7px #4ec4d3;/*左線*/
+    border-right: double 7px #4ec4d3;/*右線*/
+    border-bottom: double 7px #4ec4d3;/*右線*/
+    border-top: double 7px #4ec4d3;/*右線*/
+}
+.a{
+    text-decoration: none;
+}
+
+.p{
+    font-weight: bold;
+    font-size: 25px; 
+}

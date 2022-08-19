@@ -5,6 +5,11 @@
  */
 
 module.exports = {
-  /* Your site config here */
-  plugins: [],
+  siteMetadata:{
+    title:"my gatsby site",
+    description:"hello gatsby",
+  },
+  plugins: [
+   
+  ],
 }
