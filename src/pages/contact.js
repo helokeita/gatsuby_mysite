@@ -19,7 +19,14 @@ export default function japan(){
           <h1>お問い合わせ</h1>
 
           
-          <form name="contact" method="POST" netlify>
+          <form 
+          name="contact" 
+          method="POST" 
+          data-netlify="true"
+          data-netlify-honeypot="bot-field"
+          >
+            <input type="hidden" name="form-name" value="contact" />
+            <input type="hidden" name="bot-field" />
             <p className="form">
               <label className="label">~お名前~</label><br/>
                 <input type="text" name="name" className="text"/>
